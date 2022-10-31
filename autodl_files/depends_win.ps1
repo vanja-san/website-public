@@ -25,15 +25,15 @@ $filesDownload = @('aria2c.exe')
 $filesConvert = @('aria2c.exe', '7zr.exe', 'uup-converter-wimlib.7z')
 
 $urls = @{
-    'aria2c.exe' = 'https://github.com/uup-dump/containment-zone/raw/827b92d5016b4a0a9a3b167a5d036f21fd2fd39b/aria2c.exe';
-    '7zr.exe' = 'https://github.com/uup-dump/containment-zone/raw/827b92d5016b4a0a9a3b167a5d036f21fd2fd39b/7zr.exe';
-    'uup-converter-wimlib.7z' = 'https://github.com/uup-dump/containment-zone/raw/827b92d5016b4a0a9a3b167a5d036f21fd2fd39b/uup-converter-wimlib.7z';
+    'aria2c.exe' = 'https://github.com/uup-dump/containment-zone/raw/6e94bdf3743db7c3de22639b474730f991b9fb6e/aria2c.exe';
+    '7zr.exe' = 'https://github.com/uup-dump/containment-zone/raw/6e94bdf3743db7c3de22639b474730f991b9fb6e/7zr.exe';
+    'uup-converter-wimlib.7z' = 'https://github.com/uup-dump/containment-zone/raw/6e94bdf3743db7c3de22639b474730f991b9fb6e/uup-converter-wimlib.7z';
 }
 
 $hashes = @{
     'aria2c.exe' = '0ae98794b3523634b0af362d6f8c04a9bbd32aeda959b72ca0e7fc24e84d2a66';
     '7zr.exe' = '108ab5f1e36f2068e368fe97cd763c639e403cac8f511c6681eaf19fc585d814';
-    'uup-converter-wimlib.7z' = '5d7cb46bbb3150b55e28215efe0a0c12bc3b69ab153abf673d72c81f759553ce';
+    'uup-converter-wimlib.7z' = 'de78578eaa76f1fd822a5d872f07ab6717b353d0a913ff58d8a52a8718325d52';
 }
 
 function Retrieve-File {
